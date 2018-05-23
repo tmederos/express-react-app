@@ -1,0 +1,29 @@
+{
+  "name": "express-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "cd client && npm run build",
+    "react-dev": "cd client && npm start",
+    "develop": "concurrently --kill-others \"npm run react-dev\" \"nodemon server.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmederos/express-react-app.git"
+  },
+  "author": "Trish Mederos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmederos/express-react-app/issues"
+  },
+  "homepage": "https://github.com/tmederos/express-react-app#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
