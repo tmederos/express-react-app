@@ -8,7 +8,6 @@ if (process.env.NODE_ENV === 'production'){
   app.use(express.static('client/build'));  
 }
 
-
 app.get('/api/test', (req,res) => {
   res.json({
     message: 'Hello Trish Express!',
