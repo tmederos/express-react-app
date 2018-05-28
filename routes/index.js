@@ -13,8 +13,8 @@ router.get('/', (req, res) => {
   })
 })
 
-router.get('/post', (req, res) => {
-  messageController.create(req.query).then( message => {
+router.post('/', (req, res) => {
+  messageController.create(req.body).then( message => {
     res.json(message)
   }).catch(err => {
     console.error(err)
