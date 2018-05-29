@@ -7,7 +7,7 @@ import {getTest} from './api'
 class App extends Component {
 
   state = {
-    heading: 'Hello react',
+    username: 'User',
   };
 
   componentWillMount(){
@@ -25,9 +25,13 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">{this.state.heading}</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        //<nameField username={this.state.username} handleRename={this.handleRename}/>
+        <ChatWindow>
+          {this.state.messages.map(message =>{
+            <ChatMessage sender={message.sender} body={message.body} date={message.date}/>
+          })}
+          //<MessageField message={this.state.message} handleSend={this.handleSend}/> 
+        </ChatWindow>
       </div>
     );
   }
