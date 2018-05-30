@@ -1,4 +1,3 @@
-// export const Message = require('./Message');
 const ko = require('nekodb')
 
 ko.connect({
