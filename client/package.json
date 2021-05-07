@@ -6,7 +6,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "extend": "^3.0.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "merge": "^1.2.1",
     "mpath": "^0.6.0",
     "react": "^16.3.2",
