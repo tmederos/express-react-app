@@ -27,7 +27,7 @@
     "merge": "^1.2.1",
     "mongo": "^0.1.0",
     "mongoose": "^5.5.11",
-    "mpath": "^0.6.0",
+    "mpath": "^0.8.4",
     "nekodb": "^2.2.0",
     "react-dev-utils": "^9.0.1",
     "react-dom": "^16.8.6",
