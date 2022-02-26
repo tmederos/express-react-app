@@ -31,7 +31,7 @@
     "nekodb": "^2.2.0",
     "react-dev-utils": "^9.0.1",
     "react-dom": "^16.8.6",
-    "url-parse": "^1.4.7",
+    "url-parse": "^1.5.8",
     "webpack-dev-server": "^3.4.1"
   },
   "devDependencies": {
